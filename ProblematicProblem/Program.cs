@@ -85,7 +85,7 @@ namespace ProblematicProblem;
 
             }
             
-            Console.Write($"Ah got it! {randomActivity}, your random activity is: {userName}! do you want to grab another activity? true/false: ");
+            Console.Write($"Ah got it! {userName}, your random activity is: {randomActivity}! do you want to choose another activity? true/false: ");
             Console.WriteLine();
             cont = bool.Parse(Console.ReadLine());
         }
