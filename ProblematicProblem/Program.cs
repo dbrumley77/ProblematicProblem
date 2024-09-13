@@ -29,7 +29,7 @@ namespace ProblematicProblem;
             foreach (string activity in activities)
             {
                 Console.Write($"{activity} ");
-                Thread.Sleep(250);
+                
             }
             Console.WriteLine();
             Console.Write("Would you like to add any activities before we generate one? true/false: ");
